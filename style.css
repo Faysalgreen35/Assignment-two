@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+  background: #fff;
+}
+
+/* header styles */
+header {
+  background: #fff;
+  padding: 50px 40px;
+  margin: 0px auto;
+  max-width: 900px;
+  justify-content: center;
+}
+
+.text-light-gray {
+  color: rgba(19, 19, 24, 0.7);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > ul {
+  display: flex;
+}
+
+.nav-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #424242;
+}
+
+/* banner styles */
+.banner {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0));
+  background-image: url('Images/Group-13.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* max-height: 500px; */
+  background-size: contain;
+  height: 70vh;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+}
+.banner-content {
+  /* max-width: 800px; */
+  background-size: contain;
+  border-radius: 16px;
+  max-height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+  padding-top: 44px;
+  gap: 44px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  );
+}
+.banner-content h1 {
+  padding-bottom: 44px;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-content p {
+  padding-bottom: 44px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 4px 44px;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+
+/* form type */
+
+form {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.4);
+  max-width: 600px;
+  max-height: 44px;
+  margin: 20px auto;
+  display: flex;
+  gap: 22px;
+  /* padding-left: 22px; */
+  padding: 14px;
+}
+
+input,
+select {
+  border-radius: 15px;
+  width: 100%;
+  padding: 4px;
+  /* margin-bottom: 10px; */
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 16px; */
+}
+
+.btn-primary {
+  border-radius: 15px;
+
+  background: #ff5400;
+  padding: 20px 25px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  border: 0px;
+  font-size: 1.2rem;
+  padding: 10px;
+  display: flex;
+  margin-top: 4px;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.btn-primary .btn {
+  background: #ff5400;
+  border: 0px;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 3px;
+  width: 100%;
+}
+
+/* our popular  */
+
+/* popular-container */
+.popular-container {
+  display: flex;
+  padding: 30px 30px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+.popular-left,
+.popular-right {
+  margin: 22px auto;
+  padding: 4px;
+  gap: 33px;
+  width: 50%;
+  /* border: 2px dotted magenta; */
+  text-align: start;
+}
+.popular-left {
+  width: 50%;
+  padding: 22px auto;
+  padding-right: 33px;
+  margin-right: 44px;
+}
+.popular-right {
+  /* border: 3px dotted firebrick; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  justify-content: center;
+  background-size: contain;
+  width: 100%;
+  padding-right: 3px;
+}
+.popular-right img {
+  background: none;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+  background-size: cover;
+}
+.popular-left h2 {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.popular-left p {
+  font-weight: 600;
+
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 22px;
+}
+.text-light-grays {
+  font-weight: 600;
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 22px;
+}
+
+.popular-left ul {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 12px;
+  padding: 22px auto;
+  margin-left: 44px;
+  width: 505px;
+  height: 60.9px;
+
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 42px;
+}
+
+.extra {
+  border-radius: 8px;
+  width: 30%;
+  margin-top: 2px;
+}
+
+/* Choose Your Destination */
+
+.destination {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.destination-container {
+  text-align: center;
+  margin: 44px;
+}
+.destination-grid {
+  display: flex;
+  justify-content: space-between;
+}
+.destination-left,
+.destination-right {
+  width: 48%;
+  position: relative;
+}
+.destination-left img {
+  width: 100%;
+}
+.destination-right img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+.destination-left h1,
+.destination-right h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+}
+.three-one {
+  width: 900px;
+  gap: 11px;
+  padding: 4px;
+}
+
+.one,
+.two,
+.three {
+  width: 900px;
+  position: relative;
+  margin: 0;
+  padding: 3px;
+}
+
+.one {
+  width: 40%;
+  height: 100%;
+
+  object-fit: cover;
+  display: block;
+}
+
+.two {
+  width: 50%;
+  object-fit: cover;
+  display: block;
+  font-size: 8px;
+  height: 100%;
+}
+.three {
+  width: 29%;
+  object-fit: cover;
+  display: block;
+  height: 100%;
+}
+
+.bd {
+  width: 900px;
+  /* position: relative; */
+  margin: 0;
+  padding: 0px;
+  gap: 8px;
+}
+.ban,
+.band {
+  position: relative;
+  width: 900px;
+  margin: 0;
+  padding: 20px;
+}
+
+.ban {
+  width: 39%;
+  height: 10%;
+  /* padding: 33px 0; */
+}
+.band {
+  width: 55%;
+  height: 44%;
+  padding: 22px 2px;
+  margin: 3px auto;
+}
