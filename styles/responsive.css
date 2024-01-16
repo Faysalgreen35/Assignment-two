@@ -1,0 +1,239 @@
+/* resposive styles */
+/* mobile divices */
+
+@media screen and (max-width: 600px) {
+  nav > a > img {
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 8px;
+    object-fit: contain;
+  }
+  header,
+  .menu-bar {
+    padding: 20px;
+    display: flex;
+    margin: 2px auto;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  form {
+    border-radius: 8px;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.4);
+    max-width: 600px;
+    max-height: 600px;
+    margin: 2px auto;
+    display: flex;
+    gap: 22px;
+    /* padding-left: 22px; */
+    padding: 4px 13px;
+  }
+  .banner {
+    max-height: 74vh;
+    display: flex;
+    border-radius: 16px;
+
+    /* max-height: 500px; */
+    background-size: contain;
+    height: 90vh;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-bar,
+  header {
+    display: block;
+    align-items: center;
+    object-fit: contain;
+  }
+
+  .popular-container {
+    flex-direction: column;
+    margin: 42px auto;
+    padding: 32px;
+  }
+  .popular-left,
+  h2,
+  p,
+  ul {
+    padding: 0;
+    margin: 12px 2px;
+  }
+
+  /* popular-container */
+
+  .popular-left,
+  .popular-right {
+    margin: 22px auto;
+    padding: 4px;
+    gap: 33px;
+    width: 100%;
+    /* border: 2px dotted magenta; */
+    text-align: start;
+  }
+  .popular-left {
+    width: 100%;
+    padding: 22px auto;
+    padding-right: 33px;
+    margin-right: 44px;
+  }
+
+  .popular-left h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .popular-left ul {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 12px;
+    padding: 22px auto;
+    margin-left: 14px;
+    width: 505px;
+    height: 60.9px;
+
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 42px;
+  }
+
+  .extra {
+    border-radius: 8px;
+    width: 30%;
+    margin-top: 2px;
+  }
+
+  .destination,
+  .three-one,
+  .destination-left,
+  .destination-right,
+  .destination-grid,
+  .three {
+    flex-direction: column;
+    width: 90%;
+    max-height: 700px;
+    margin: 5px auto;
+    max-width: 500px;
+    gap: 3px;
+    /* margin-bottom: 44px; */
+  }
+
+  .bd {
+    margin-top: 223px;
+    display: flex;
+    max-height: 300px;
+  }
+  .ban,
+  .band > img {
+    /* margin-top: 33px; */
+    height: 70%;
+    display: block;
+    object-fit: contain;
+    align-items: center;
+  }
+
+  .choose {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+
+    position: relative;
+    top: 1300px;
+    padding: 13px;
+    margin: 22px auto;
+  }
+  .choose-container {
+    margin: 22px auto;
+    overflow: hidden;
+    padding: 2px;
+    margin-left: 43px;
+
+    top: 200px;
+  }
+  .middle {
+    padding: 0px;
+    margin: 0px auto;
+    margin-left: 2px;
+  }
+
+  .choose-first {
+    max-width: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    object-fit: contain;
+    position: relative;
+    top: 120px;
+
+    height: 800px;
+  }
+  .choose-second {
+    max-width: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    object-fit: contain;
+    position: relative;
+    top: 100px;
+
+    height: 400px;
+  }
+  .newsletter {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    object-fit: contain;
+    position: relative;
+    top: 1400px;
+
+    height: 400px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    object-fit: contain;
+    position: relative;
+    top: 1400px;
+
+    height: 400px;
+  }
+  .footer-upper {
+    width: 100%;
+    padding: 2px 2px;
+    margin: 2px auto;
+  }
+
+  .footer-upper .address h3 {
+    font-family: Mulish;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
+}
+
+/* tablet divices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 50px;
+    margin: 0 auto;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+}
