@@ -16,7 +16,7 @@ header {
   background: #fff;
   padding: 50px 40px;
   margin: 0px auto;
-  max-width: 900px;
+  max-width: 992px;
   justify-content: center;
 }
 
@@ -55,13 +55,13 @@ nav li a {
 .banner {
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0));
-  background-image: url('Images/Group-13.png');
+  background-image: url('../Images/Group-13.png');
   background-repeat: no-repeat;
   background-size: cover;
   /* max-height: 500px; */
   background-size: contain;
   height: 70vh;
-  max-width: 900px;
+  max-width: 992px;
   align-items: center;
   justify-content: center;
 }
@@ -173,7 +173,7 @@ select {
   display: flex;
   padding: 30px 30px;
   margin: 20px auto;
-  max-width: 900px;
+  max-width: 992px;
 }
 .popular-left,
 .popular-right {
@@ -259,7 +259,7 @@ select {
 /* Choose Your Destination */
 
 .destination {
-  max-width: 900px;
+  max-width: 992px;
   margin: 0 auto;
 }
 .destination-container {
@@ -298,15 +298,17 @@ select {
   font-weight: 800;
 }
 .three-one {
-  width: 900px;
-  gap: 11px;
+  /* width: 900px; */
+  max-width: 992px;
+  gap: 21px;
   padding: 4px;
 }
 
 .one,
 .two,
 .three {
-  width: 900px;
+  /* width: 900px; */
+  max-width: 992px;
   position: relative;
   margin: 0;
   padding: 3px;
@@ -335,7 +337,8 @@ select {
 }
 
 .bd {
-  width: 900px;
+  /* width: 900px; */
+  max-width: 992px;
   /* position: relative; */
   margin: 0;
   padding: 0px;
@@ -344,7 +347,8 @@ select {
 .ban,
 .band {
   position: relative;
-  width: 900px;
+  /* width: 900px; */
+  max-width: 992px;
   margin: 0;
   padding: 20px;
 }
